@@ -1,0 +1,94 @@
+body{
+    background: #454545;
+    line-height: 1.7;
+}
+
+a{
+    text-decoration: none;
+    /* delete underline 取消任何文字装饰*/
+}
+
+a, body{
+    color: #eee;
+}
+
+.side-bar{
+    float: left;  /* move to left */
+    width: 20%;  /* 20% of body */
+}
+
+.side-bar >* {
+    padding: 10px 15px;
+}
+
+.side-bar .nav a,
+.side-bar .tag-list a
+{
+    display: block;
+    padding: 5px;
+    color: #999;
+    -webkit-transition: color 200ms;
+    -o-transition: color 200ms;
+    transition: color 200ms;
+    /* 1s = 1000ms */
+}
+
+.side-bar .nav a:hover,
+.side-bar .tag-list a:hover{
+    color: #eee;
+}
+
+.side-bar .nav a{
+    font-weight: 700;
+}
+
+
+.main{
+    float: right;
+    width: 80%;
+    color: #454545;
+}
+
+.article-list, .article{
+    margin-right: 25%;
+    background: #fff;
+    padding: 20px 30px;
+    -webkit-box-shadow: 0 0 3px 2px rgba(0,0,0, 0.2);
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.article-list .item{
+    margin-bottom: 25px;
+}
+
+.article-list .item .title{
+    color: #454545;
+    font-size: 22px;
+    font-weight: 700;
+    /* text-align: center; title move to center */
+
+}
+
+.article-list .item .status{
+    font-size: 13px;
+    color: #ccc;
+}
+
+.article-list .item > * {
+    margin: 10px 0;
+}
+
+.header .logo{
+    line-height: 1;  /* Only defines logo's line-height不会被全局定义影响 */
+    /* border: 5px solid #eee; */
+    padding: 10px 20px;
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#menu-checkbox,
+#menu-toggle{
+    display: none;
+}
