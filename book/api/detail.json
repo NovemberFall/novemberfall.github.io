@@ -1,7 +1,0 @@
-{
-    "success": true,
-    "data": {
-        "title": "再见Ubuntu，你好Deepin",
-        "content": "<img src='http://upload-images.jianshu.io/upload_images/17744323-b8e9f8c53849e311.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp' alt='' /> <p>第一次接触linux就用了很久的Ubuntu，后来尝试了Manjaro、Debian，还是用了Ubuntu，但是用VM虚拟机使用的ubuntu经常卡顿。我始终觉得ubuntu的默认桌面环境gnome可能太重了，才让chrome、webstorm、vscode同时运行时很卡，经常卡屏。</p> <p>后来我就换了以kde为桌面环境的kubuntu、以xfce为桌面环境的xubuntu。但是在我 13.3寸 1920x1080的笔记本下使用起来总是需要自己去定制display的scale等等才能让字体、图标、应用窗口等不至于太小，使用起来总是有些不满意。</p> <p>继华为发生的一些事，看了一些微信推文，了解到了deepin。所以选择了尝试一下。</p> <p>确实让我很喜欢。默认安装的就是我开发一直用的chrome，还不用我每次狠心去卸载火狐，默认WPS，而不是不常用的libre office，舒服，主要还是流畅方便，而且是apt包管理，不用担心转deepin还要去了解不同的包管理命令。</p>"
-    }
-}
