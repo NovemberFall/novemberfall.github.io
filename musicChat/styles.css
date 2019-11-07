@@ -42,6 +42,37 @@
     margin: 0;
     position: fixed;
 }
-body{
+h1{
     color: #ffffff;
+}
+
+.my-2{
+    color: #ffffff;
+}
+
+.chat-list{
+    color: #ffffff;
+}
+li.list-group-item{
+    background-color: transparent;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    /* border: 1px solid rgba(0,0,0,.25); */
+    border: 1px solid rgba(0,0,0,.75);
+}
+
+.btn {
+    /* background: #43d9be; */
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.input-group-text{
+    background-color:transparent;
+    color: white;
+}
+
+
+.form-control {
+    background-color: transparent;
+    color:transparent;
 }
